@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Typing game!</h1>
+    <h2>Practice your typing skills. Click **start** to begin!</h2>
+    <div>
+      <button type="button" id="start">Start</button>
+      <!-- To start the game -->
+      <input
+        type="text"
+        aria-label="current word"
+        class="hide"
+        id="typed-value"
+        placeholder="Type here!"
+      />
+      <!-- The textbox for typing -->
+    </div>
+    <div class="text">
+      <p id="quote"></p>
+      <!-- This will display our quote -->
+      <p class="hide" id="message"></p>
+      <!-- This will display any status messages -->
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
